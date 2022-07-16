@@ -1,0 +1,23 @@
+.header {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+.header__list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header__item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header__link {
+  padding: 20px;
+}
